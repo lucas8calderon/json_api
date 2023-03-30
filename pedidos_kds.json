@@ -1,0 +1,150 @@
+[
+    {
+        "id": 52, // id interno do pedido
+        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980", // uuid interno do pedido       
+        "createdDate": "2023-03-22 18:30:00", // data da criação do pedido
+        "statusDate": "2023-03-22 18:30:00", // data do ultimo status do pedido
+        "status": 80, // status do pedido (30 = novo, 50 em produção, 70= saiu para entrega, 80= finalizado)
+        "sourceId": 110, // canal de venda (110 =  delivery 111=balcao 102=ifood - tem mais códigos)
+        "type": 1, // teleentrega        
+        "total": 600, // total da venda
+        "workShiftCount": 1, // número do pedido na loja
+        "items": [
+            {
+                "id": 83, // id interno do item
+                "sequence": 1, // ordem na tela do item
+                "uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200", // uuid interno do item
+                "quantity": 1.0, // qtd
+                "total": 600, // total do item
+                "type": 0, // produto simples
+                "product": { // produto do item 
+                    "id": 3109, // id interno do produto 
+                    "name": "COCA COLA 2L", // nome do produto
+                    "sku": "400", // uuid interno do produto
+                    "price": 600, // preco unitário
+                    "unitType": 0 // unid de venda 0=unid
+                }
+            }
+        ],
+        "address": { // endereço somente para delivery
+            "zip": 91350110, // cep
+            "number": "566", // numero
+            "complement": "", // complemento
+            "street": "Avenida Andaraí", // rua
+            "neighborhood": "Passo da Areia", // bairro
+            "city": "Porto Alegre", // cidade
+            "state": "RS", // estado
+            "reference": "" // ponto de referencia
+        },
+        "customer": { // cliente
+            "id": 8, // id interno
+            "name": "eds", // nome
+            "mainPhone": 981262261 // fone
+        },
+        "payments": [ // formas de pgato
+            {
+                "methodName": "Dinheiro", // forma de pagto
+                "value": 600 // valor
+            }
+        ],
+        "statusUser": { // usuario que criou o pedido
+            "id": 33, // id interno
+            "name": "Eds toca" // nome
+        },
+        "deliveryMan": { // entregador (somente em pedidos com o status > 70 e de delivery)
+            "id": 5025,
+            "name": "AAASSSS"
+        }
+    },
+    {
+        "id": 52,
+        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",
+        "createdDate": "2023-03-22 18:30:00",
+        "statusDate": "2023-03-22 18:30:00",
+        "status": 80,
+        "sourceId": 110,
+        "type": 0,
+        "total": 2490,
+        "workShiftCount": 2,
+        "items": [
+            {
+                "id": 84,
+                "sequence": 1,
+                "uuid": "f3a68996-e994-4a1c-adc3-2fa457049e15-41-111-1679522038653-108",
+                "quantity": 3.0,
+                "price": 500,
+                "total": 1500,
+                "observation": "",
+                "type": 0, // produto simples
+                "product": {
+                    "id": 3109,
+                    "name": "COCA COLA 2L",
+                    "sku": "400",
+                    "price": 500
+                }
+            },
+            {
+                "id": 85,
+                "sequence": 2,
+                "uuid": "2e441302-6f13-4cda-b1a2-5fc74fc0aa54-41-111-1679522067619-1867",
+                "quantity": 1.0,
+                "price": 990,
+                "total": 990,
+                "type": 0,
+                "subItems": [ // esse item é uma montagem de pizza por isso tem subitens 
+                    {
+                        "id": 86,
+                        "sequence": 3,
+                        "uuid": "ea3c472f-c937-4f2b-8ac6-4437320dc287-41-111-1679522067619-508",
+                        "quantity": 1.0,
+                        "price": 0,
+                        "total": 0,
+                        "type": 2, /// type 2 = o valor do produtos são somados e divididos pela qtd de produtos do type 2 (sabor de pizza)
+                        "product": {
+                            "id": 5117,
+                            "name": "Birrenta",
+                            "sku": "108",
+                            "price": 0,
+                            "unitType": 0
+                        }
+                    },
+                    {
+                        "id": 87,
+                        "sequence": 4,
+                        "orderId": 53,
+                        "uuid": "41303c36-6b49-498f-9647-627bfaecd468-41-111-1679522067619-4650",
+                        "quantity": 1.0,
+                        "price": 990,
+                        "total": 990,
+                        "parentId": 85,
+                        "type": 1, // type 1 = produto simples (complemento de pizza, borda e etc)
+                        "product": {
+                            "id": 1609,
+                            "name": "Borda Catupiry e Doce de Leite",
+                            "sku": "506",
+                            "price": 990,
+                            "unitType": 0
+                        }
+                    }
+                ],
+                "product": {
+                    "id": 3108,
+                    "name": "PIZZA GRANDE",
+                    "sku": "1",
+                    "price": 0,
+                    "unitType": 0
+                }
+            }
+        ],
+        "payments": [
+            {
+                "methodName": "Dinheiro",
+                "value": 2490
+            }
+        ],
+        "statusUser": {
+            "id": 33,
+            "name": "Eds toca"
+        }
+    }
+]
