@@ -1,57 +1,57 @@
 [
     {
-        "id": 52, // id interno do pedido
-        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980", // uuid interno do pedido       
-        "createdDate": "2023-03-22 18:30:00", // data da criação do pedido
-        "statusDate": "2023-03-22 18:30:00", // data do ultimo status do pedido
-        "status": 80, // status do pedido (30 = novo, 50 em produção, 70= saiu para entrega, 80= finalizado)
-        "sourceId": 110, // canal de venda (110 =  delivery 111=balcao 102=ifood - tem mais códigos)
-        "type": 1, // teleentrega        
-        "total": 600, // total da venda
-        "workShiftCount": 1, // número do pedido na loja
+        "id": 52, 
+        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",   
+        "createdDate": "2023-03-22 18:30:00", 
+        "statusDate": "2023-03-22 18:30:00", 
+        "status": 80, 
+        "sourceId": 110, 
+        "type": 1,   
+        "total": 600, 
+        "workShiftCount": 1, 
         "items": [
             {
-                "id": 83, // id interno do item
-                "sequence": 1, // ordem na tela do item
-                "uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200", // uuid interno do item
-                "quantity": 1.0, // qtd
-                "total": 600, // total do item
-                "type": 0, // produto simples
-                "product": { // produto do item 
-                    "id": 3109, // id interno do produto 
-                    "name": "COCA COLA 2L", // nome do produto
-                    "sku": "400", // uuid interno do produto
-                    "price": 600, // preco unitário
-                    "unitType": 0 // unid de venda 0=unid
+                "id": 83, 
+                "sequence": 1, 
+                "uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200", 
+                "quantity": 1.0, 
+                "total": 600, 
+                "type": 0,   
+                "product": { 
+                    "id": 3109, 
+                    "name": "COCA COLA 2L",
+                    "sku": "400", 
+                    "price": 600, 
+                    "unitType": 0 
                 }
             }
         ],
-        "address": { // endereço somente para delivery
-            "zip": 91350110, // cep
-            "number": "566", // numero
-            "complement": "", // complemento
-            "street": "Avenida Andaraí", // rua
-            "neighborhood": "Passo da Areia", // bairro
-            "city": "Porto Alegre", // cidade
-            "state": "RS", // estado
-            "reference": "" // ponto de referencia
+        "address": {
+            "zip": 91350110, 
+            "number": "566", 
+            "complement": "", 
+            "street": "Avenida Andaraí", 
+            "neighborhood": "Passo da Areia", 
+            "city": "Porto Alegre", 
+            "state": "RS", 
+            "reference": "" 
         },
-        "customer": { // cliente
-            "id": 8, // id interno
-            "name": "eds", // nome
-            "mainPhone": 981262261 // fone
+        "customer": { 
+            "id": 8, 
+            "name": "eds", 
+            "mainPhone": 981262261 
         },
-        "payments": [ // formas de pgato
+        "payments": [ 
             {
-                "methodName": "Dinheiro", // forma de pagto
-                "value": 600 // valor
+                "methodName": "Dinheiro", 
+                "value": 600 
             }
         ],
-        "statusUser": { // usuario que criou o pedido
-            "id": 33, // id interno
-            "name": "Eds toca" // nome
+        "statusUser": { 
+            "id": 33, 
+            "name": "Eds toca"
         },
-        "deliveryMan": { // entregador (somente em pedidos com o status > 70 e de delivery)
+        "deliveryMan": { 
             "id": 5025,
             "name": "AAASSSS"
         }
@@ -75,7 +75,7 @@
                 "price": 500,
                 "total": 1500,
                 "observation": "",
-                "type": 0, // produto simples
+                "type": 0, 
                 "product": {
                     "id": 3109,
                     "name": "COCA COLA 2L",
@@ -91,7 +91,7 @@
                 "price": 990,
                 "total": 990,
                 "type": 0,
-                "subItems": [ // esse item é uma montagem de pizza por isso tem subitens 
+                "subItems": [
                     {
                         "id": 86,
                         "sequence": 3,
@@ -99,7 +99,7 @@
                         "quantity": 1.0,
                         "price": 0,
                         "total": 0,
-                        "type": 2, /// type 2 = o valor do produtos são somados e divididos pela qtd de produtos do type 2 (sabor de pizza)
+                        "type": 2, 
                         "product": {
                             "id": 5117,
                             "name": "Birrenta",
@@ -117,7 +117,7 @@
                         "price": 990,
                         "total": 990,
                         "parentId": 85,
-                        "type": 1, // type 1 = produto simples (complemento de pizza, borda e etc)
+                        "type": 1, 
                         "product": {
                             "id": 1609,
                             "name": "Borda Catupiry e Doce de Leite",
