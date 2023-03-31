@@ -1,151 +1,150 @@
 [
-    {
-        "id": 52, 
-        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",   
-        "createdDate": "2023-03-22 18:30:00", 
-        "statusDate": "2023-03-22 18:30:00", 
-        "status": 80, 
-        "sourceId": 110, 
-        "type": 1,   
-        "total": 600, 
-        "workShiftCount": 1, 
-        "items": [
-            {
-                "id": 83, 
-                "sequence": 1, 
-                "uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200", 
-                "quantity": 1.0, 
-                "total": 600, 
-                "type": 0,   
-                "product": { 
-                    "id": 3109, 
-                    "name": "COCA COLA 3L",
-                    "sku": "400", 
-                    "price": 600, 
-                    "unitType": 0 
-                }
-            }
-        ],
-        "address": {
-            "zip": 91350110, 
-            "number": "566", 
-            "complement": "", 
-            "street": "Avenida Andaraí", 
-            "neighborhood": "Passo da Areia", 
-            "city": "Porto Alegre", 
-            "state": "RS", 
-            "reference": "" 
-        },
-        "customer": { 
-            "id": 8, 
-            "name": "eds", 
-            "mainPhone": 981262261 
-        },
-        "payments": [ 
-            {
-                "methodName": "Dinheiro", 
-                "value": 600 
-            }
-        ],
-        "statusUser": { 
-            "id": 33, 
-            "name": "Eds toca"
-        },
-        "deliveryMan": { 
-            "id": 5025,
-            "name": "AAASSSS"
-        }
-    },
-    {
-        "id": 52,
-        "uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",
-        "createdDate": "2023-03-22 18:30:00",
-        "statusDate": "2023-03-22 18:30:00",
-        "status": 80,
-        "sourceId": 110,
-        "type": 0,
-        "total": 2490,
-        "workShiftCount": 2,
-        "items": [
-            {
-                "id": 84,
-                "sequence": 1,
-                "uuid": "f3a68996-e994-4a1c-adc3-2fa457049e15-41-111-1679522038653-108",
-                "quantity": 3.0,
-                "price": 500,
-                "total": 1500,
-                "observation": "",
-                "type": 0, 
-                "product": {
-                    "id": 3109,
-                    "name": "
-                    COLA 2L",
-                    "sku": "400",
-                    "price": 500
-                }
-            },
-            {
-                "id": 85,
-                "sequence": 2,
-                "uuid": "2e441302-6f13-4cda-b1a2-5fc74fc0aa54-41-111-1679522067619-1867",
-                "quantity": 1.0,
-                "price": 990,
-                "total": 990,
-                "type": 0,
-                "subItems": [
-                    {
-                        "id": 86,
-                        "sequence": 3,
-                        "uuid": "ea3c472f-c937-4f2b-8ac6-4437320dc287-41-111-1679522067619-508",
-                        "quantity": 1.0,
-                        "price": 0,
-                        "total": 0,
-                        "type": 2, 
-                        "product": {
-                            "id": 5117,
-                            "name": "Birrenta",
-                            "sku": "108",
-                            "price": 0,
-                            "unitType": 0
-                        }
-                    },
-                    {
-                        "id": 87,
-                        "sequence": 4,
-                        "orderId": 53,
-                        "uuid": "41303c36-6b49-498f-9647-627bfaecd468-41-111-1679522067619-4650",
-                        "quantity": 1.0,
-                        "price": 990,
-                        "total": 990,
-                        "parentId": 85,
-                        "type": 1, 
-                        "product": {
-                            "id": 1609,
-                            "name": "Borda Catupiry e Doce de Leite",
-                            "sku": "506",
-                            "price": 990,
-                            "unitType": 0
-                        }
-                    }
-                ],
-                "product": {
-                    "id": 3108,
-                    "name": "PIZZA GRANDE",
-                    "sku": "1",
-                    "price": 0,
-                    "unitType": 0
-                }
-            }
-        ],
-        "payments": [
-            {
-                "methodName": "Dinheiro",
-                "value": 2490
-            }
-        ],
-        "statusUser": {
-            "id": 33,
-            "name": "Eds toca"
-        }
-    }
+	{
+		"id": 52,
+		"uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",
+		"createdDate": "2023-03-22 18:30:00",
+		"statusDate": "2023-03-22 18:30:00",
+		"status": 80,
+		"sourceId": 110,
+		"type": 1,
+		"total": 600,
+		"workShiftCount": 1,
+		"items": [
+			{
+				"id": 83,
+				"sequence": 1,
+				"uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200",
+				"quantity": 1.0,
+				"total": 600,
+				"type": 0,
+				"product": {
+					"id": 3109,
+					"name": "COCA COLA 3L",
+					"sku": "400",
+					"price": 600,
+					"unitType": 0
+				}
+			}
+		],
+		"address": {
+			"zip": 91350110,
+			"number": "566",
+			"complement": "",
+			"street": "Avenida Andaraí",
+			"neighborhood": "Passo da Areia",
+			"city": "Porto Alegre",
+			"state": "RS",
+			"reference": ""
+		},
+		"customer": {
+			"id": 8,
+			"name": "eds",
+			"mainPhone": 981262261
+		},
+		"payments": [
+			{
+				"methodName": "Dinheiro",
+				"value": 600
+			}
+		],
+		"statusUser": {
+			"id": 33,
+			"name": "Eds toca"
+		},
+		"deliveryMan": {
+			"id": 5025,
+			"name": "AAASSSS"
+		}
+	},
+	{
+		"id": 52,
+		"uuid": "d970f8f2-9964-4857-934d-54027cb5230b-41-111-1679511518980",
+		"createdDate": "2023-03-22 18:30:00",
+		"statusDate": "2023-03-22 18:30:00",
+		"status": 80,
+		"sourceId": 110,
+		"type": 0,
+		"total": 2490,
+		"workShiftCount": 2,
+		"items": [
+			{
+				"id": 84,
+				"sequence": 1,
+				"uuid": "f3a68996-e994-4a1c-adc3-2fa457049e15-41-111-1679522038653-108",
+				"quantity": 3.0,
+				"price": 500,
+				"total": 1500,
+				"observation": "",
+				"type": 0,
+				"product": {
+					"id": 3109,
+					"name": "COCA COLA 2L",
+					"sku": "400",
+					"price": 500
+				}
+			},
+			{
+				"id": 85,
+				"sequence": 2,
+				"uuid": "2e441302-6f13-4cda-b1a2-5fc74fc0aa54-41-111-1679522067619-1867",
+				"quantity": 1.0,
+				"price": 990,
+				"total": 990,
+				"type": 0,
+				"subItems": [
+					{
+						"id": 86,
+						"sequence": 3,
+						"uuid": "ea3c472f-c937-4f2b-8ac6-4437320dc287-41-111-1679522067619-508",
+						"quantity": 1.0,
+						"price": 0,
+						"total": 0,
+						"type": 2,
+						"product": {
+							"id": 5117,
+							"name": "Birrenta",
+							"sku": "108",
+							"price": 0,
+							"unitType": 0
+						}
+					},
+					{
+						"id": 87,
+						"sequence": 4,
+						"orderId": 53,
+						"uuid": "41303c36-6b49-498f-9647-627bfaecd468-41-111-1679522067619-4650",
+						"quantity": 1.0,
+						"price": 990,
+						"total": 990,
+						"parentId": 85,
+						"type": 1,
+						"product": {
+							"id": 1609,
+							"name": "Borda Catupiry e Doce de Leite",
+							"sku": "506",
+							"price": 990,
+							"unitType": 0
+						}
+					}
+				],
+				"product": {
+					"id": 3108,
+					"name": "PIZZA GRANDE",
+					"sku": "1",
+					"price": 0,
+					"unitType": 0
+				}
+			}
+		],
+		"payments": [
+			{
+				"methodName": "Dinheiro",
+				"value": 2490
+			}
+		],
+		"statusUser": {
+			"id": 33,
+			"name": "Eds toca"
+		}
+	}
 ]
