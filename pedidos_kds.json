@@ -24,8 +24,25 @@
 					"price": 600,
 					"unitType": 0
 				}
-			}
-		],
+			},
+			
+			  {
+      "id": 100,
+      "sequence": 2,
+      "quantity": 1,
+      "total": 50,
+      "type": 0,
+      "product": {
+        "id": 9999,
+        "name": "Pizza Teste",
+        "sku": "999",
+        "price": 50,
+        "unitType": 0
+      }
+    }
+  ],
+			
+
 		"address": {
 			"zip": 91350110,
 			"number": "566",
