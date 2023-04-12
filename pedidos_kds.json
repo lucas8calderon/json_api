@@ -24,7 +24,55 @@
 					"price": 600,
 					"unitType": 0
 				}
-			}
+			},
+			
+			{
+"id": 84,
+"sequence": 2,
+"uuid": "7eb3ce3a-8f78-4df9-9d7e-1dcfb8e7d0db-41-110-1679511532180-9200",
+"quantity": 1.0,
+"total": 200,
+"type": 0,
+"product": {
+"id": 3110,
+"name": "FANTA LARANJA 2L",
+"sku": "401",
+"price": 200,
+"unitType": 0
+}
+},
+{
+"id": 85,
+"sequence": 3,
+"uuid": "20a468c3-8e2b-44d1-b007-3e3c13b82f9c-41-110-1679511532180-9200",
+"quantity": 1.0,
+"total": 300,
+"type": 0,
+"product": {
+"id": 3111,
+"name": "ESFIHA DE CARNE",
+"sku": "402",
+"price": 300,
+"unitType": 0
+}
+},
+{
+"id": 86,
+"sequence": 4,
+"uuid": "1cebe03b-c0b6-4c4f-bd6b-4a4fcb12dc36-41-110-1679511532180-9200",
+"quantity": 1.0,
+"total": 400,
+"type": 0,
+"product": {
+"id": 3112,
+"name": "TORTA HOLANDESA",
+"sku": "403",
+"price": 400,
+"unitType": 0
+}
+}
+]
+}
 		],
 		"address": {
 			"zip": 91350110,
