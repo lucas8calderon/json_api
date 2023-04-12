@@ -24,8 +24,25 @@
 					"price": 600,
 					"unitType": 0
 				}
+			},
+			
+			{
+				"id": 89,
+				"sequence": 2,
+				"uuid": "687e22b5-c841-40c3-a0b8-0a37dcd14923-41-110-1679511532180-9200",
+				"quantity": 2.0,
+				"total": 600,
+				"type": 0,
+				"product": {
+					"id": 3109,
+					"name": "COCA COLA 10L",
+					"sku": "400",
+					"price": 600,
+					"unitType": 0
+				}
 			}
 		],
+		
 		"address": {
 			"zip": 91350110,
 			"number": "566",
