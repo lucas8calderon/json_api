@@ -7,7 +7,7 @@
 		"status": 80,
 		"sourceId": 110,
 		"type": 1,
-		"total": 600,
+		"total": 1200,
 		"workShiftCount": 1,
 		"items": [
 			{
@@ -153,6 +153,11 @@
 				}
 			}
 		],
+		"customer": {
+			"id": 8,
+			"name": "Lucas",
+			"mainPhone": 977844172
+		},
 		"payments": [
 			{
 				"methodName": "Dinheiro",
